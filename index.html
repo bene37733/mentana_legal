@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentana - Legal Documents</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #1a2548 0%, #0d1a40 50%, #000a33 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            text-align: center;
+            opacity: 0.7;
+            margin-bottom: 50px;
+        }
+        
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .card:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .card p {
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+        
+        .icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            opacity: 0.6;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mentana Legal Documents</h1>
+        <p class="subtitle">Mental Health Tracking App - Official Legal Information</p>
+        
+        <div class="card-grid">
+            <a href="privacy-policy.html" class="card">
+                <div class="icon">🔒</div>
+                <h2>Privacy Policy</h2>
+                <p>Learn how we protect and handle your sensitive mental health data.</p>
+            </a>
+            
+            <a href="terms-of-service.html" class="card">
+                <div class="icon">📋</div>
+                <h2>Terms of Service</h2>
+                <p>User responsibilities, prohibited uses, and app limitations.</p>
+            </a>
+            
+            <a href="medical-disclaimers.html" class="card">
+                <div class="icon">⚕️</div>
+                <h2>Medical Disclaimers</h2>
+                <p>Important information about app limitations and medical advice.</p>
+            </a>
+            
+            <a href="crisis-resources.html" class="card">
+                <div class="icon">🚨</div>
+                <h2>Crisis Resources</h2>
+                <p>Emergency mental health support and crisis hotlines worldwide.</p>
+            </a>
+        </div>
+        
+        <footer>
+            <p>Last Updated: December 2024</p>
+            <p>Contact: mentana.hi@outlook.com</p>
+        </footer>
+    </div>
+</body>
+</html>
+
